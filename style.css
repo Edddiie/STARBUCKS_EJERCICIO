@@ -5,7 +5,7 @@
     font-family: Noto Sans, Helvetica, Arial, sans-serif;
     color: white;
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .Caja_1 img{
@@ -20,6 +20,7 @@
 
 .Caja h2{
     font-size: 30px;
+    padding: 0px 100px;
 }
 
 .Caja p{
@@ -33,4 +34,12 @@
 
 #Caja_2{
     background-color: #0044b4;
+}
+
+#Caja_3{
+    background-color: #d50032;
+}
+
+#Caja_4{
+    background-color: #1e3932;
 }
