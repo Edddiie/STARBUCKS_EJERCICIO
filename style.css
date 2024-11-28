@@ -1,0 +1,36 @@
+.Caja{
+    width: 1400px;
+    height: 408px;
+    display: flex;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Caja_1 img{
+    width: 700px;
+    height: 408px;
+}
+
+.Caja div{
+    padding: 10px;
+    margin: 65px auto;
+}
+
+.Caja h2{
+    font-size: 30px;
+}
+
+.Caja p{
+    font-size: 19px;
+    padding: 0px 90px;
+}
+
+#Caja_1{
+    background-color: #1e3932;
+}
+
+#Caja_2{
+    background-color: #0044b4;
+}
