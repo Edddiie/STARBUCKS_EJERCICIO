@@ -47,3 +47,25 @@
 #Caja_5{
     background-color: #d50032;
 }
+/* Ocultar el checkbox */
+.hidden-checkbox {
+    display: none;
+}
+
+/* Estilo del botón */
+.btn {
+    display: inline-block;
+    background: none;
+    border: 1px solid;
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1;
+    transition: all 0.2s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: inherit;
+}
