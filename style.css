@@ -8,7 +8,7 @@
     margin: 30px auto;
 }
 
-.Caja_1 img{
+.Caja img{
     width: 700px;
     height: 408px;
 }
@@ -47,6 +47,7 @@
 #Caja_5{
     background-color: #d50032;
 }
+
 /* Ocultar el checkbox */
 .hidden-checkbox {
     display: none;
