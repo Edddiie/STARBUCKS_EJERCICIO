@@ -1,11 +1,33 @@
-.Caja{
+.Cajas{
     width: 1400px;
-    height: 408px;
+    height: 466px;
     display: flex;
     font-family: Noto Sans, Helvetica, Arial, sans-serif;
     color: white;
     text-align: center;
-    margin: 30px auto;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Cajas img{
+    width: 700px;
+    height: 466px;
+}
+
+.Cajas div{
+    padding: 10px;
+    margin: 65px auto;
+}
+
+.Cajas h2{
+    font-size: 30px;
+    padding: 0px 60px;
+}
+
+.Cajas p{
+    font-size: 19px;
+    padding: 0px 60px;
 }
 
 .Caja img{
@@ -29,6 +51,15 @@
 }
 
 #Caja_1{
+    width: 1400px;
+    height: 408px;
+    display: flex;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #1e3932;
 }
 
@@ -46,6 +77,14 @@
 
 #Caja_5{
     background-color: #d50032;
+}
+
+#Caja_6{
+    background-color: #f6bfd9;
+}
+
+#Caja_7{
+    background-color: #98cde4;
 }
 
 /* Ocultar el checkbox */
@@ -69,4 +108,72 @@
 
 .btn:hover {
     color: inherit;
+}
+
+.CajaBlock{
+    width: 1400px;
+    height: 487.2px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
+    gap: 30px;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Caja_pequeña{
+    width: 685px;
+    height: 787.2px;
+    display: block;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
+    color: #d50032;
+    text-align: center;
+    margin: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Caja_pequeña img{
+    width: 685px;
+    height: 571.08px;
+}
+
+.Caja_pequeña div{
+    padding: 0px;
+    margin: 65px auto;
+}
+
+.Caja_pequeña p{
+    font-size: 19px;
+    padding: 0px 190px;
+}
+
+.Caja_pequeña2{
+    width: 685px;
+    height: 787.2px;
+    display: block;
+    font-family: Noto Sans, Helvetica, Arial, sans-serif;
+    color: #003b49;
+    text-align: center;
+    margin: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Caja_pequeña2 img{
+    width: 685px;
+    height: 571.08px;
+}
+
+.Caja_pequeña2 div{
+    padding: 0px;
+    margin: 65px auto;
+}
+
+.Caja_pequeña2 p{
+    font-size: 19px;
+    padding: 0px 250px;
 }
